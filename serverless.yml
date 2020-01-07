@@ -1,0 +1,20 @@
+org: quinw68
+app: etirement-api-app
+service: etirement-api
+
+package:
+    include:
+        - node_modules/**
+provider:
+    name: aws
+    runtime: nodejs12.x
+    stage: dev
+
+functions: 
+    statement:
+        handler: dist/statement.handler
+        events: 
+            - http: 
+                path: statement
+                method: GET
+                cors: true

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "baseUrl": "./src",
+        "outDir": "./dist",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "types": ["node"],
+    "exclude": [ "node_modules", "dist", "webpack" ]
+}
