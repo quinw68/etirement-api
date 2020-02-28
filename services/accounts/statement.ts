@@ -1,8 +1,8 @@
 import { APIGatewayEvent } from 'aws-lambda';
-const Banking = require('banking');
+import * as banking from 'banking';
 
 export const handler = async (event: APIGatewayEvent): Promise<any> => {
-    const bank = Banking({
+    const bank = banking({
 
     });
     console.log('statement handler');
