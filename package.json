@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "banking": "^1.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "source-map-support": "^0.5.10",
     "superagent": "^5.2.1",
     "xml2js": "^0.4.23"
